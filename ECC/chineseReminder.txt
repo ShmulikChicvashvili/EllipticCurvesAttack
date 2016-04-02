@@ -1,0 +1,40 @@
+ZZ chineseReminder(Vec<ZZ> a, Vec<ZZ> b, long size) {
+	ZZ N = conv<ZZ>(1);
+	Vec<ZZ> Ni, Di;
+	Ni.SetLength(size);
+	Di.SetLength(size);
+	ZZ x = conv<ZZ>(0);
+	for(long i = 0; i < size; i++) {
+		N*=b[i];
+	}
+	//cout << "N = " << N << endl;
+	for(long i = 0; i < size; i++) {
+		//cout << "i = " << endl;
+		Ni[i] = N/b[i];
+		//cout << "Ni = " << Ni[i] << endl;
+		ZZ temp = Ni[i];
+		//cout << "temp1 = " << temp << endl;
+		rem(temp, temp, b[i]);
+		//cout << "temp2 = " << temp << endl;
+		Di[i] = InvMod(temp,b[i]);
+		cout << "Di = " << Di[i] << endl;
+	}
+	for(long i = 0; i < size; i++) {
+		x = x + (a[i]*Ni[i]*Di[i]);
+	}
+	x = MulMod(x,1,N);
+	return x;
+}
+
+
+/*Vec<ZZ> a, b;
+	a.SetLength(2);
+	b.SetLength(2);
+	a[0] = 218;
+	a[1] = 10;
+	b[0] = 343;
+	b[1] = 23;
+
+	ZZ result = chineseReminder(a,b,2);
+	cout << result << endl;
+	*/

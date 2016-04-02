@@ -1,0 +1,75 @@
+﻿class PohligHellman;
+
+class PohligHellman {
+public:
+	Vec<ZZ> divs, divsTimes, lEquations;
+	long currentPosition;
+	long currentSize;
+	Jacobian P, Q;
+	ZZ pointOrder;
+
+	PohligHellman(Jacobian P, Jacobian Q, ZZ order) {
+		this->P=P;
+		this->Q=Q;
+		this->pointOrder=order;
+		this->currentPosition=0;
+		this->currentSize=10;
+		this->divs.SetLength(this->currentSize);
+		this->divsTimes.SetLength(this->currentSize);
+		this->lEquations.SetLength(this->currentSize);
+		ZZ orderForFunction = order;
+		for(long i = 0; i < currentSize; i++) {
+			divs[i] = divsTimes[i] = lEquations[i] = 0;
+		}
+		ZZ iterator = conv<ZZ>(2);
+		while(iterator <= this->pointOrder) {
+			if(orderForFunction % iterator == 0) {
+				divs[this->currentPosition]=iterator;
+				orderForFunction/=iterator;
+				divsTimes[this->currentPosition]++;
+				while(orderForFunction%iterator==0){
+					orderForFunction/=iterator;
+					divsTimes[this->currentPosition]++;
+				}
+				this->currentPosition++;
+				if(this->currentPosition == this->currentPosition -1) {
+					expand();
+				}
+			}
+			iterator++;
+		}
+	}
+
+	void expand() {
+		Vec<ZZ> vDivs, vDivsTimes, vlEquation;
+		vDivs.SetLength(currentSize*2);
+		vDivsTimes.SetLength(currentSize*2);
+		vlEquation.SetLength(currentSize*2);
+		for(long i = 0; i < currentSize*2; i++) {
+			vDivs[i]=0;
+			vDivsTimes[i]=0;
+			vlEquation[i]=0;
+		}
+		for(long i = 0; i < currentSize; i++) {
+			vDivs[i] = divs[i];
+			vDivsTimes[i]=divsTimes[i];
+			vlEquation[i]=lEquations[i];
+		}
+		currentSize*=2;
+		divs=vDivs;
+		divsTimes=vDivsTimes;
+		lEquations=vlEquation;
+	}
+
+};
+
+
+
+	//Testing Pohlig-Hellman
+	/*ZZ_p::init(conv<ZZ>(1000000));
+	Jacobian PP(conv<ZZ_p>(4023),conv<ZZ_p>(6063),conv<ZZ_p>(1));
+	Jacobian QQ(conv<ZZ_p>(4135),conv<ZZ_p>(3169),conv<ZZ_p>(1));
+	PohligHellman t(PP,QQ,conv<ZZ>(7889));
+	for(long i = 0; i < t.currentPosition; i++) {
+		cout << " " << t.divs[i] << "^" << t.divsTimes[i] << endl;
+	}*/

@@ -1,0 +1,284 @@
+﻿Build started 18/06/2014 18:45:27.
+     1>Project "D:\Technion\project\ECCproject\ECCproject\ECCproject.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ECCproject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Technion\project\WinNTL-6_0_0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ECCprime.cpp
+         ECCprime.cpp
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=NTL::ZZ
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::ZZ
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vec_zz.h(14) : see reference to class template instantiation 'NTL::Vec<T>' being compiled
+                 with
+                 [
+                     T=NTL::ZZ
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=NTL::ZZ_p
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::ZZ_p
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vec_zz_p.h(15) : see reference to class template instantiation 'NTL::Vec<T>' being compiled
+                 with
+                 [
+                     T=NTL::ZZ_p
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=NTL::Vec<long>
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::Vec<long>
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\fft.h(41) : see reference to class template instantiation 'NTL::Vec<T>' being compiled
+                 with
+                 [
+                     T=NTL::Vec<long>
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=NTL::Vec<NTL::mulmod_precon_t>
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::Vec<NTL::mulmod_precon_t>
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\fft.h(42) : see reference to class template instantiation 'NTL::Vec<T>' being compiled
+                 with
+                 [
+                     T=NTL::Vec<NTL::mulmod_precon_t>
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=NTL::ZZ_pX
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::ZZ_pX
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\zz_px.h(1076) : see reference to class template instantiation 'NTL::Vec<T>' being compiled
+                 with
+                 [
+                     T=NTL::ZZ_pX
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=NTL::pair_ZZ_pX_long
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::pair_ZZ_pX_long
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\zz_pxfactoring.h(28) : see reference to class template instantiation 'NTL::Vec<T>' being compiled
+                 with
+                 [
+                     T=NTL::pair_ZZ_pX_long
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=NTL::ZZ_pE
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::ZZ_pE
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vec_zz_pe.h(14) : see reference to class template instantiation 'NTL::Vec<T>' being compiled
+                 with
+                 [
+                     T=NTL::ZZ_pE
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(79): warning C4291: 'void *operator new(size_t,_ntl_vector_placement)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(36) : see declaration of 'operator new'
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(319) : see reference to function template instantiation 'void NTL::BlockConstruct<T>(T *,long)' being compiled
+                 with
+                 [
+                     T=NTL::ZZ_pE
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(291) : while compiling class template member function 'void NTL::Vec<T>::DoSetLength(long)'
+                 with
+                 [
+                     T=NTL::ZZ_pE
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=long
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=long
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(399) : see reference to function template instantiation 'void NTL::BlockDestroy<T>(T *,long)' being compiled
+                 with
+                 [
+                     T=NTL::Vec<long>
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::Vec<long>
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(396): warning C4812: obsolete declaration style: please use 'NTL::Vec<T>::~Vec' instead
+                 with
+                 [
+                     T=NTL::mulmod_precon_t
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::mulmod_precon_t
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(399) : see reference to function template instantiation 'void NTL::BlockDestroy<T>(T *,long)' being compiled
+                 with
+                 [
+                     T=NTL::Vec<NTL::mulmod_precon_t>
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(397) : while compiling class template member function 'NTL::Vec<T>::~Vec(void)'
+                 with
+                 [
+                     T=NTL::Vec<NTL::mulmod_precon_t>
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(79): warning C4291: 'void *operator new(size_t,_ntl_vector_placement)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(36) : see declaration of 'operator new'
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(319) : see reference to function template instantiation 'void NTL::BlockConstruct<T>(T *,long)' being compiled
+                 with
+                 [
+                     T=NTL::ZZ_pX
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(291) : while compiling class template member function 'void NTL::Vec<T>::DoSetLength(long)'
+                 with
+                 [
+                     T=NTL::ZZ_pX
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(379) : while compiling class template member function 'NTL::Vec<T> &NTL::Vec<T>::operator =(const NTL::Vec<T> &)'
+                 with
+                 [
+                     T=NTL::ZZ_pX
+                 ]
+     1>d:\technion\project\winntl-6_0_0\include\ntl\vector.h(79): warning C4291: 'void *operator new(size_t,_ntl_vector_placement)' : no matching operator delete found; memory will not be freed if initialization throws an exception
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(36) : see declaration of 'operator new'
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(319) : see reference to function template instantiation 'void NTL::BlockConstruct<T>(T *,long)' being compiled
+                 with
+                 [
+                     T=NTL::pair_ZZ_pX_long
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(291) : while compiling class template member function 'void NTL::Vec<T>::DoSetLength(long)'
+                 with
+                 [
+                     T=NTL::pair_ZZ_pX_long
+                 ]
+                 d:\technion\project\winntl-6_0_0\include\ntl\vector.h(379) : while compiling class template member function 'NTL::Vec<T> &NTL::Vec<T>::operator =(const NTL::Vec<T> &)'
+                 with
+                 [
+                     T=NTL::pair_ZZ_pX_long
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Technion\project\ECCproject\Debug\ECCproject.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ECCproject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Technion\project\ECCproject\Debug\ECCproject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Technion\project\ECCproject\Debug\ECCproject.lib" /MACHINE:X86 Debug\ctools.obj
+         Debug\FacVec.obj
+         Debug\FFT.obj
+         Debug\fileio.obj
+         Debug\GetTime.obj
+         Debug\GF2.obj
+         Debug\GF2E.obj
+         Debug\GF2EX.obj
+         Debug\GF2EXFactoring.obj
+         Debug\GF2X.obj
+         Debug\GF2X1.obj
+         Debug\GF2XFactoring.obj
+         Debug\GF2XVec.obj
+         Debug\G_LLL_FP.obj
+         Debug\G_LLL_QP.obj
+         Debug\G_LLL_RR.obj
+         Debug\G_LLL_XD.obj
+         Debug\HNF.obj
+         Debug\lip.obj
+         Debug\LLL.obj
+         Debug\LLL_FP.obj
+         Debug\LLL_QP.obj
+         Debug\LLL_RR.obj
+         Debug\LLL_XD.obj
+         Debug\lzz_p.obj
+         Debug\lzz_pE.obj
+         Debug\lzz_pEX.obj
+         Debug\lzz_pEXFactoring.obj
+         Debug\lzz_pX.obj
+         Debug\lzz_pX1.obj
+         Debug\lzz_pXCharPoly.obj
+         Debug\lzz_pXFactoring.obj
+         Debug\mat_GF2.obj
+         Debug\mat_GF2E.obj
+         Debug\mat_lzz_p.obj
+         Debug\mat_lzz_pE.obj
+         Debug\mat_poly_lzz_p.obj
+         Debug\mat_poly_ZZ.obj
+         Debug\mat_poly_ZZ_p.obj
+         Debug\mat_RR.obj
+         Debug\mat_ZZ.obj
+         Debug\mat_ZZ_p.obj
+         Debug\mat_ZZ_pE.obj
+         Debug\quad_float.obj
+         Debug\RR.obj
+         Debug\tools.obj
+         Debug\vec_GF2.obj
+         Debug\vec_GF2E.obj
+         Debug\vec_lzz_p.obj
+         Debug\vec_lzz_pE.obj
+         Debug\vec_RR.obj
+         Debug\vec_ZZ.obj
+         Debug\vec_ZZ_p.obj
+         Debug\vec_ZZ_pE.obj
+         Debug\WordVector.obj
+         Debug\xdouble.obj
+         Debug\ZZ.obj
+         Debug\ZZVec.obj
+         Debug\ZZX.obj
+         Debug\ZZX1.obj
+         Debug\ZZXCharPoly.obj
+         Debug\ZZXFactoring.obj
+         Debug\ZZ_p.obj
+         Debug\ZZ_pE.obj
+         Debug\ZZ_pEX.obj
+         Debug\ZZ_pEXFactoring.obj
+         Debug\ZZ_pX.obj
+         Debug\ZZ_pX1.obj
+         Debug\ZZ_pXCharPoly.obj
+         Debug\ZZ_pXFactoring.obj
+         Debug\ECCprime.obj
+         Debug\main.obj
+         LINK : D:\Technion\project\ECCproject\Debug\ECCproject.exe not found or not built by the last incremental link; performing full link
+         ECCproject.vcxproj -> D:\Technion\project\ECCproject\Debug\ECCproject.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Technion\project\ECCproject\Debug\ECCproject.exe;#1" /manifest Debug\ECCproject.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ECCproject.unsuccessfulbuild".
+         Touching "Debug\ECCproject.lastbuildstate".
+     1>Done Building Project "D:\Technion\project\ECCproject\ECCproject\ECCproject.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.58
